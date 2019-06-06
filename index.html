@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CALCULATOR</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+
+    <!--Animation-->
+    <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet"
+
+  </head>
+  <body>
+
+    <form name="calc">
+      <!-- set place holder to hold an input and a result after calculation  -->
+      <input type="text" name="display" placeholder="0">
+
+      <!-- create the first row of buttons for the user to click on as input -->
+
+    <input type="button" value="7" onclick ="input(this)">
+    <input type="button" value="8" onclick ="input(this)">
+    <input type="button" value="9" onclick ="input(this)">
+    <input type="button" value="+" onclick ="input(this)">
+
+
+      <!-- create the second row of buttons for the user to click on as input -->
+
+    <input type="button" value="4"onclick ="input(this)">
+    <input type="button" value="5"onclick ="input(this)">
+    <input type="button" value="6"onclick ="input(this)">
+    <input type="button" value="-"onclick ="input(this)">
+
+
+      <!-- create the third row of buttons for the user to click on as input -->
+    <input type="button" value= "1"onclick ="input(this)">
+    <input type="button" value= "2"onclick ="input(this)">
+    <input type="button" value= "3"onclick ="input(this)">
+    <input type="button" value= "*"onclick ="input(this)">
+
+
+      <!-- create the fourth row of buttons for the user to click on as input -->
+    <input type="button" value= "0"onclick ="input(this)">
+    <input type="button" value= "."onclick ="input(this)">
+    <input type="button" value= "C"onclick ="clearDisplay()">
+    <input type="button" value= "/"onclick ="input(this)">
+
+     <!-- create the 5th row of buttons for the user to click on as input -->
+    <input type="button" value= "," onclick ="input(this)" style= "width: 70px">
+    <input type="button" value= "AVG" onclick ="average()" style= "width: 70px">
+    <input type="button" value= "="style= "width: 70px"onclick ="enter()">
+
+    <!-- background -->
+
+    <!-- <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeesDGh3G06d_UtL2axHXZyzrDol7nuqLbieCgRTQO0Q4pl_AM" alt="doggy" class="dog animated infinite flash delay-2s" width= "500", height= "700" style="display: inline-block; margin: 0 auto;"/> -->
+
+    <!-- <iframe src="https://giphy.com/embed/Q61LJj43H48z1FIK4X" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gif-art-old-school-dos-Q61LJj43H48z1FIK4X"></a></p> -->
+
+
+
+
+
+    <!-- <img src="url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeesDGh3G06d_UtL2axHXZyzrDol7nuqLbieCgRTQO0Q4pl_AM") alt="doggy" class="animated infinite flash delay-2s"> -->
+
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-*-*"><input type="button" value="?"></div>
+  </div>
+  <div class="row">
+    <div class="col-*-*"><input type="button" value="7"></div>
+    <div class="col-*-*"><input type="button" value="4"></div>
+    <div class="col-*-*"><input type="button" value="1"></div>
+    <div class="col-*-*"><input type="button" value="0"></div>
+    <div class="col-*-*"><input type="button" value="/"></div>
+  </div>
+  <div class="row2">
+    <div class="col-*-*"><input type="button" value="8"></div>
+    <div class="col-*-*"><input type="button" value="5"></div>
+    <div class="col-*-*"><input type="button" value="2"></div>
+    <div class="col-*-*"><input type="button" value="."></div>
+    <div class="col-*-*"><input type="button" value="AVG"></div>
+  </div>
+   <div class="row">
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+  </div>
+    <div class="row">
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+  </div>
+     <div class="row">
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+  </div>
+</div> -->
+
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
