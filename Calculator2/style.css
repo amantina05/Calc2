@@ -1,0 +1,60 @@
+
+
+
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+
+  /* doggy */
+   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeesDGh3G06d_UtL2axHXZyzrDol7nuqLbieCgRTQO0Q4pl_AM"); */
+
+  background-image: url("https://media.giphy.com/media/Q61LJj43H48z1FIK4X/giphy.mp4");
+
+
+
+
+  /* <iframe src="https://giphy.com/embed/Q61LJj43H48z1FIK4X" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gif-art-old-school-dos-Q61LJj43H48z1FIK4X">via GIPHY</a></p> */
+
+  /* background-color: black; */
+
+
+
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  /* allign: center; */
+}
+
+
+form {
+  width: 260px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  height: 330px;
+}
+
+
+input[type="text"] {
+  width: 260px;
+  height: 60px;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 100px;
+
+}
+
+input[type="button"] {
+  width: 50px;
+  height: 40px;
+  font-size: 30px;
+  border-radius: 40px;
+  margin: 3px;
+
+}
